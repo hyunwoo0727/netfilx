@@ -3,6 +3,7 @@ package chang;
 public class PaymentBean {
 	private String name,memberId,cardCompany,cardNo,fromDate,toDate,payDate;
 	private int paymentPrice;
+	
 	public PaymentBean(String name, String memberId, String cardCompany, String cardNo, String payDate,int paymentPrice) {
 		super();
 		this.name = name;
