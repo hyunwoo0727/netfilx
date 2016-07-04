@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class MemberBean {
 	private String name,email,password,membershipGrade,ageGrade,phone,cardNum,expireDate
-				  ,regDate,birth;
+				  ,regDate,birth,device,profileImg;
 	private boolean isReceiveEmail,isAutoPay;
 	
 	public MemberBean(String name,String email,String password,String membershipGrade,String phone,String cardNum,String birth,boolean isReceiveEmail){
@@ -85,6 +85,18 @@ public class MemberBean {
 	}
 	public void setBirth(String birth) {
 		this.birth = birth;
+	}
+	public String getDevice() {
+		return device;
+	}
+	public void setDevice(String device) {
+		this.device = device;
+	}
+	public String getProfileImg() {
+		return profileImg;
+	}
+	public void setProfileImg(String profileImg) {
+		this.profileImg = profileImg;
 	}
 	
 }

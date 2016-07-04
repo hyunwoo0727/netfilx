@@ -1,7 +1,7 @@
 package merge;
 
 public class Payment {
-	private String name,cardCompany,cardNum,payDate,expireDate;
+	private String email,name,cardCompany,cardNum,payDate,expireDate;
 	int price;
 	
 	public Payment(String name, String cardCompany, String cardNum, String payDate, String expireDate, int price) {
@@ -49,7 +49,11 @@ public class Payment {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
-	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	
 }
